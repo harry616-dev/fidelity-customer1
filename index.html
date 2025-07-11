@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Customer Service</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #368727;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    main {
+      flex: 1;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+      color: #004080;
+    }
+
+    .card p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Customer Service</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Contact Us</h2>
+      <p>Get in touch with our support team for any assistance you need.</p>
+    </div>
+
+    <div class="card">
+      <h2>FAQs</h2>
+      <p>Browse frequently asked questions to find quick answers.</p>
+    </div>
+
+    <div class="card">
+      <h2>Support Hours</h2>
+      <p>We’re available Monday to Friday, 9am - 6pm.</p>
+    </div>
+
+    <div class="card">
+      <h2>Live Chat</h2>
+      <p>Connect instantly with an agent through our live chat service.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Customer Service. All rights reserved.
+  </footer>
+
+</body>
+</html>
